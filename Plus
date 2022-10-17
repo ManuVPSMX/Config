@@ -102,7 +102,7 @@ echo ""
 echo -ne "\033[1;36mGENERAR LAS CLAVES VIP [N/S]: \033[1;37m"
 read x
 [[ $x = @(n|N) ]] && exit
-echo -e "\033[1;36mSeleccione su Arquitectura VPS: \033[1;37m"
+echo -e "\033[1;36mSeleccione su Arquitectura VPS Por defecto 1 : \033[1;37m"
 echo -e "[1] - x86_64"
 echo -e "[2] - aarch64(ARM)"
 echo -ne "\033[1;36mOpción: \033[1;37m"
